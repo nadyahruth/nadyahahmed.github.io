@@ -1,61 +1,11 @@
-<!-- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Paint Box</title>
-<style>
-  #canvas {
-    border: 1px solid black;
-    cursor: crosshair;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadyah Ahmed</title>
 </head>
 <body>
-  <canvas id="canvas" width="600" height="400"></canvas>
-  <br>
-  <label for="colorPicker">Color:</label>
-  <input type="color" id="colorPicker" value="#000000">
-  <label for="brushSize">Brush Size:</label>
-  <input type="range" id="brushSize" min="1" max="20" value="5">
-  <button id="clearBtn">Clear</button>
-
-  <script>
-    const canvas = document.getElementById('canvas');
-    const ctx = canvas.getContext('2d');
-    const colorPicker = document.getElementById('colorPicker');
-    const brushSize = document.getElementById('brushSize');
-    const clearBtn = document.getElementById('clearBtn');
-    let isDrawing = false;
-
-    canvas.addEventListener('mousedown', (e) => {
-      isDrawing = true;
-      draw(e);
-    });
-
-    canvas.addEventListener('mousemove', (e) => {
-      if (isDrawing) {
-        draw(e);
-      }
-    });
-
-    canvas.addEventListener('mouseup', () => {
-      isDrawing = false;
-      ctx.beginPath();
-    });
-
-    function draw(e) {
-      ctx.lineWidth = brushSize.value;
-      ctx.strokeStyle = colorPicker.value;
-      ctx.lineCap = 'round';
-
-      ctx.lineTo(e.offsetX, e.offsetY);
-      ctx.stroke();
-      ctx.beginPath();
-      ctx.moveTo(e.offsetX, e.offsetY);
-    }
-
-    clearBtn.addEventListener('click', () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-    });
-  </script>
+  Website in Progress
 </body>
-</html> -->
+</html>
