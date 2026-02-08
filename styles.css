@@ -1,86 +1,23 @@
-#canvas {
-  height: 50vh;
-  width: 95%;
-  resize: both;
-  border: 1px solid black inset;
-  border-style:inset;
-  cursor: crosshair;
-  background-color: azure;
-  overflow: auto;
+ html,body {
+  height:100%;
+  width: 100%;
+  background: linear-gradient(45deg,#4E1B43, #E36973, #FFC1C8);
+  
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
 }
-body {
-  background-color: rgb(125, 125, 125);
+.coming-soon {
+  font-family: "Ultra", serif;
+  font-size: 10vw;
+  text-align: center;
+  color: rgba(255, 255, 255, 10%);
 }
-
-.window {
-  display: flex;
-  border: 1px solid black;
-  background-color: gray;
-  flex-direction: column;
-  border-radius: 5px;
-}
-.header {
-  background-color: rgb(17, 112, 181);
+.message{
+  position: absolute;
+  text-align: center;
   color: white;
-  display: flex;
-  flex-direction: row;
-  border: 1px solid black;
-}
-.paint-title {
-  display: flex;
-}
-.paint-title-items {
-  display: flex;
-  padding: 2px;
-  margin: 2px;
-}
-.paint-title-items> * {
-    margin: 0;
-}
-.actions{
-  display: flex;
-  margin-left: auto;
-}
-
-.actions>ul{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: flex-start;
-    margin: 0;
-}
-.menu{
-    background-color: #ECE4C6;
-    display: flex;
-    justify-content: flex-start;
-}
-.menu>ul{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.menu>ul>li{
-    margin:2px;
-}
-.drawing-area{
-    display: flex;
-    flex-direction: row;
-}
-.tools{
-    background-color: #ECE4C6;
-    border: 1px solid black;
-    width: 20%;
-}
-.color-picker{
-    background-color: #ECE4C6;
-    border: 1px solid black ;
-}
-.help-txt>p{
-    margin:1px;
-}
-
-.help-txt{
-    background-color: #ECE4C6;
+font-family: "Victor Mono", monospace;
+font-size: 2vw;
 }
