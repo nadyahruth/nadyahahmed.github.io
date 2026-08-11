@@ -2,44 +2,5 @@ html,
 body {
   height: 100%;
   width: 100%;
-  /* background: linear-gradient(45deg, #4e1b43, #e36973, #ffc1c8); */
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin:auto;
 }
-.aboutme {
-  width: 15%;
-  height: 100%;
-  background-color: #f0f0f0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.gallery {
-  width: 85%;
-  height: 100%;
-  background-color: #d0d0d0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
-
-/* .coming-soon {
-  font-family: "Ultra", serif;
-  font-size: 10vw;
-  text-align: center;
-  color: rgba(255, 255, 255, 10%);
-}
-.message {
-  position: absolute;
-  text-align: center;
-  color: white;
-  font-family: "Victor Mono", monospace;
-  font-size: 2vw;
-} */
